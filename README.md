@@ -1,6 +1,6 @@
 # mycode (Python Basics)
 
-I am taking my first Python class through Alta3 and have created this repository to track my work progress
+I am taking my first Python class through Alta3 and have created this repository to track my work progress. I want to learn how to version control projects with git.
 
 ## Getting Started
 
