@@ -10,15 +10,15 @@ message = 'Your letter grade is: '
 my_score = float(input("What was your score on your test?"))
 
 if my_score >= 90:
-    message = message + "A"
+    message = message + " A"
 elif my_score >= 80:
-    message = message + "B"
+    message = message + " B"
 elif my_score >= 70:
-    message = message + "C"
+    message = message + " C"
 elif my_score >=60:
-    message = message + "D"
+    message = message + " D"
 else:
-    message = message + "F"
+    message = message + " F"
 
 print(message)
 
