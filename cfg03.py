@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 ## create file object in "r"ead mode
+
+count = 0
+
 with open("vlanconfig.cfg", "r") as configfile:
+    count += 1
     ## readlines() creates a list by reading target
     ## file line by line
     configlist = configfile.readlines()
@@ -9,4 +13,5 @@ with open("vlanconfig.cfg", "r") as configfile:
 
 ## each item of the list now has the "\n" characters back
 print(configlist)
+print(count)
 
